@@ -1,0 +1,170 @@
+{
+  /* ANY */
+
+  /* editor: appearance */
+  "workbench.colorTheme": "Visual Studio Dark",
+  "editor.cursorBlinking": "solid",
+  "editor.fontFamily": "DejaVuSansMono Nerd Font Mono",
+  "editor.fontSize": 12,
+  "editor.minimap.enabled": false,
+  "editor.guides.indentation": false,
+  "editor.renderLineHighlight": "none",
+  "workbench.editor.decorations.colors": true,
+  
+  /* editor editing */
+  "editor.tabSize": 2,
+  "workbench.editor.wrapTabs": true,
+
+  /* editor: behavior */
+  "workbench.editor.closeOnFileDelete": true,
+  "workbench.editor.highlightModifiedTabs": true,
+  "workbench.editor.restoreViewState": true,
+  "workbench.editor.revealIfOpen": true,
+  
+  /* ui splits */
+  "workbench.editor.openSideBySideDirection": "right",
+
+  /* editor autocomplete */
+  "editor.acceptSuggestionOnEnter": "off",
+  "editor.inlineSuggest.enabled": false,
+  "editor.quickSuggestions": {
+    "other": "inline",
+    "strings": "inline"
+  },
+  "editor.snippetSuggestions": "top",
+  "editor.suggest.insertMode": "replace",
+  "editor.suggestOnTriggerCharacters": false,
+  "editor.wordBasedSuggestions": "matchingDocuments",
+  "editor.wordBasedSuggestionsMode": "currentDocument",
+  
+  /* ui file explorer */
+  "explorer.autoReveal": true,
+  "explorer.compactFolders": false,
+  "explorer.confirmDelete": false,
+  "explorer.confirmDragAndDrop": false,
+  "explorer.confirmUndo": "verbose",
+  "explorer.fileNesting.enabled": false,
+  "explorer.fileNesting.expand": false,
+  "explorer.fileNesting.patterns": {
+    "*.config.js": "${capture}.js"
+  },
+  "explorer.openEditors.minVisible": 10,
+
+  /* load and save */
+  "files.autoSave": "onFocusChange",
+  "files.hotExit": "off",
+
+  /* version control */
+  "git.confirmSync": false,
+  "git.enableSmartCommit": true,
+  "git.openRepositoryInParentFolders": "always",
+  "git.showPushSuccessNotification": true,
+
+  /* lang any */
+  "javascript.suggest.enabled": false,
+  "json.format.enable": false,
+  "python.defaultInterpreterPath": "C:\\Users\\Admin1\\AppData\\Local\\Programs\\Python\\Python39\\python.exe",
+  "javascript.updateImportsOnFileMove.enabled": "always",
+  "typescript.updateImportsOnFileMove.enabled": "always",
+
+  /* plugin any */
+  "remove-empty-lines.allowedNumberOfEmptyLines": 1,
+  "remove-empty-lines.onSaveReason": {
+    "focusOut": true,
+    "manual": false
+  },
+  "remove-empty-lines.runOnSave": true,
+  "vscode-ahk-plus.enableIntelliSense": false,
+
+  /* workspace */
+  "security.workspace.trust.enabled": false,
+
+  /* cloud sync */
+  "settingsSync.ignoredExtensions": [
+    "dionmunk.vscode-notes",
+    "ms-vscode.powershell",
+    "ms-edgedevtools.vscode-edge-devtools",
+    "hediet.vscode-drawio",
+    "ms-vscode-remote.remote-wsl",
+    "ms-vscode.cpptools-extension-pack",
+    "ms-azuretools.vscode-docker",
+    "ms-vscode.cpptools",
+    "ms-vscode.cpptools-themes",
+    "mccarter.start-git-bash",
+    "ms-vscode-remote.remote-containers",
+    "mhutchie.git-graph",
+    "github.codespaces",
+    "ms-playwright.playwright"
+  ],
+  "settingsSync.ignoredSettings": [
+    "-window.zoomLevel"
+  ],
+  "task.allowAutomaticTasks": "on",
+
+  /* telemetry */
+  "telemetry.telemetryLevel": "off",
+
+  /* ui panel */
+  "workbench.panel.defaultLocation": "right",
+  "workbench.panel.opensMaximized": "never",
+
+  // /* editor editing */
+  // "workbench.editor.wrapTabs": true,
+
+  /* ui tabs */
+  "workbench.editor.pinnedTabsOnSeparateRow": true,
+  "workbench.editor.showTabs": "single",
+  "workbench.editor.tabActionCloseVisibility": false,
+  "workbench.editor.tabCloseButton": "off",
+  "workbench.editor.openPositioning": "last",
+  "workbench.editor.limit.enabled": true,
+  "workbench.editor.limit.value": 15,
+
+  /* ui window */
+  "window.zoomLevel": 1,
+  "window.newWindowDimensions": "maximized",
+  "window.commandCenter": false,
+  
+  /* app behavior */
+  "window.openFilesInNewWindow": "on",
+  "window.openFoldersInNewWindow": "on",
+  "window.openWithoutArgumentsInNewWindow": "off",
+  "window.restoreFullscreen": false,
+  "window.restoreWindows": "none",
+  "workbench.enableExperiments": false,
+  "workbench.reduceMotion": "on",
+  "workbench.startupEditor": "none",
+
+  /* ui sidebar */
+  "explorer.openEditors.sortOrder": "alphabetical",
+  "workbench.sideBar.location": "right",
+
+  /* terminal */
+  "terminal.integrated.defaultProfile.windows": "Command Prompt",
+  "terminal.integrated.commandsToSkipShell": [
+    "workbench.action.showEditorsInActiveGroup",
+    "workbench.explorer.openEditorsView.toggleVisibility",
+    "workbench.action.quickOpenNavigateNextInRecentFilesPicker",
+    "workbench.action.showAllEditors",
+    "workbench.action.openGlobalKeybindings",
+    "workbench.action.openPreviousEditorFromHistory"
+  ],
+  "terminal.integrated.allowChords": false,
+  "terminal.integrated.tabs.enabled": false,
+
+  /* remote ssh */
+  "remote.SSH.remotePlatform": {
+    "formik-repl": "linux",
+    "formik-forms": "linux"
+  },
+  "remoteHub.commitDirectlyWarning": "off",
+
+  /* debug */
+  "debug.openDebug": "neverOpen",
+
+  /* extensions */
+  "extensions.ignoreRecommendations": true,
+  
+  /* ANY */
+  "workbench.tree.indent": 20,
+}

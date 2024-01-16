@@ -1,0 +1,135 @@
+[
+  /* any */
+  {
+    "key": "alt+r",
+    "command": "workbench.action.openRecent"
+  },
+  {
+    "key": "ctrl+shift+s",
+    "command": "workbench.action.files.saveWithoutFormatting"
+  },
+  {
+    "key": "ctrl+shift+alt+a",
+    "command": "editor.foldAll",
+    "when": "editorTextFocus && foldingEnabled"
+  },
+  {
+    "key": "alt+1",
+    "command": "numberedBookmarks.jumpToBookmark1",
+    "when": "editorTextFocus"
+  },
+  {
+    "key": "alt+2",
+    "command": "numberedBookmarks.jumpToBookmark2",
+    "when": "editorTextFocus"
+  },
+  {
+    "key": "alt+3",
+    "command": "numberedBookmarks.jumpToBookmark3",
+    "when": "editorTextFocus"
+  },
+  {
+    "key": "alt+4",
+    "command": "numberedBookmarks.jumpToBookmark4",
+    "when": "editorTextFocus"
+  },
+
+  /* arrow keys in home row */
+  {
+    "key": "alt+h",
+    "command": "cursorLeft",
+    "when": "textInputFocus"
+  },
+  {
+    "key": "alt+l",
+    "command": "cursorRight",
+    "when": "textInputFocus"
+  },
+  {
+    "key": "alt+j",
+    "command": "cursorDown",
+    "when": "textInputFocus"
+  },
+  {
+    "key": "alt+k",
+    "command": "cursorUp",
+    "when": "textInputFocus"
+  },
+
+  /* editor utility */
+  {
+    "command": "editor.action.formatDocument",
+    "key": "ctrl+shift+f",
+    "when": "editorHasDocumentFormattingProvider && editorTextFocus && !editorReadonly && !inCompositeEditor"
+  },
+  {
+    "key": "ctrl+t",
+    "command": "workbench.action.files.newUntitledFile"
+  },
+  {
+    "key": "ctrl+n",
+    "command": "-workbench.action.files.newUntitledFile"
+  },
+
+  /* search */
+  {
+    "key": "ctrl+shift+p",
+    "command": "workbench.action.experimental.quickTextSearch"
+  },
+
+  /* ui navigation */
+  {
+    "key": "ctrl+;",
+    "command": "workbench.action.showCommands"
+  },
+  {
+    "key": "ctrl+`",
+    "command": "workbench.action.togglePanel"
+  },
+  {
+    "key": "ctrl+e",
+    "command": "workbench.action.closeSidebar",
+    "when": "sideBarVisible"
+  },
+  {
+    "key": "ctrl+e",
+    "command": "workbench.view.explorer",
+    "when": "!sideBarVisible"
+  },
+
+  {
+    "key": "ctrl+shift+e",
+    "command": "workbench.action.pinEditor",
+    "when": "!activeEditorIsPinned"
+  },
+
+  /* run and debug */
+  {
+    "key": "ctrl+r",
+    "command": "workbench.action.terminal.sendSequence",
+    "args": {
+      "text": "cls\u000D${relativeFile}\u000D"
+    },
+    "when": "editorLangId == 'bat'"
+  },
+  {
+    "key": "ctrl+1",
+    "command": "workbench.action.debug.start",
+    "when": "debuggersAvailable && debugState == 'inactive'"
+  },
+  {
+    "key": "ctrl+2",
+    "command": "workbench.action.debug.stop",
+    "when": "inDebugMode && !focusedSessionIsAttach"
+  },
+
+  /* editor editing */
+  {
+    "key": "ctrl+l",
+    "command": "type",
+    "args": {
+      "text": " = "
+    },
+    "when": "editorTextFocus"
+  }
+]
